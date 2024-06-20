@@ -7,7 +7,7 @@ commands = [
     "nvidia-smi",
     "pwd",
     "ls",
-    "cd backend",
+    "cd ./backend",
     "pwd",
     "ls",
     "bash start.sh"
