@@ -8,6 +8,8 @@ commands = [
     "pwd",
     "ls",
     "cd backend",
+    "pwd",
+    "ls",
     "bash start.sh"
 ]
 
