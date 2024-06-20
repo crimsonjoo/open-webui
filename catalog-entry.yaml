@@ -10,9 +10,9 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/crimsonjoo/open-webui/main/KolonBenit.jpg
     tags:
-      - Text Generation Webui
-      - LLMs
       - Generative AI
+      - LLMs (Base/Instruct/Aligned)
+      - RAG
       - NLP
       - Crimson Joo
     git_url: 'https://github.com/crimsonjoo/open-webui'

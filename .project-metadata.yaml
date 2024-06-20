@@ -1,6 +1,6 @@
-name: KOLON BENIT LLM WebUI
+name: KOLON BENIT LLM-WebUI
 description: |
-  KOLON BENIT WebUI base text generation in the CML platform.
+  KOLON BENIT LLM WebUI in the CML platform.
 
 author: JOO JUNG SOO
 specification_version: 1.0
@@ -30,8 +30,8 @@ tasks:
     
   - type: start_application
     bypass_authentication : true
-    name: Text Generation WebUI
-    subdomain: CML-text-generation-webui
+    name: KOLON BENIT LLM-WebUI
+    subdomain: open-webui
     script: start_app.py
     short_summary: Create and start KOLON BENIT LLM WebUI application
     long_summary: Create and start KOLON BENIT LLM WebUI application. Remember to enable unauthenticated app access for external access to the UI.
