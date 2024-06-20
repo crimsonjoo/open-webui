@@ -3,5 +3,7 @@
 import subprocess
 import os
 
-!cd open-webui/backend
+!pwd
+!ls
+!cd ./backend
 print(subprocess.run(["bash start.sh"], shell=True))
