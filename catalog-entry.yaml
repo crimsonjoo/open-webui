@@ -3,7 +3,7 @@ entries:
   - title: KOLON BENIT LLM WebUI
     label: text-to-image
     short_description: |
-        LLM platform in the form of UI and text to text generation in the CML platform.
+        KOLON BENIT LLM platform in the form of UI and text to text generation in the CML platform.
     long_description: |
         This AMP contains the files to host LLMs and an accompanying UI. 
         This AMP enables organizations to deploy a text to text generation, currated by prompts from the user.
