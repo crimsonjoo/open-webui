@@ -8,7 +8,7 @@ entries:
         This AMP contains the files to host LLMs and an accompanying UI. 
         This AMP enables organizations to deploy a text to text generation, currated by prompts from the user.
     image_path: >-
-      https://i.ibb.co/6by627q/kolonbenit.png
+      https://raw.githubusercontent.com/crimsonjoo/open-webui/main/KolonBenit.jpg
     tags:
       - Text Generation Webui
       - LLMs
