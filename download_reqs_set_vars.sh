@@ -11,3 +11,6 @@ npm run build
 # Serving Frontend with the Backend
 cd ./backend
 pip install -r requirements.txt -U
+
+sudo apt update
+sudo apt install sqlite3
