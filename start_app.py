@@ -7,11 +7,9 @@ commands = [
     "nvidia-smi",
     "pwd",
     "ls",
-    "cd ./backend",
-    "pwd",
-    "ls",
-    "bash start.sh"
+    "bash webstart.sh"
 ]
+# "bash backend/start.sh"
 
 for command in commands:
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
