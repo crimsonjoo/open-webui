@@ -1,18 +1,23 @@
 import subprocess
 import os
 
-# 필요한 명령어들을 순차적으로 실행합니다.
 commands = [
     "ldconfig -v",
     "nvidia-smi",
     "pwd",
     "ls",
-    "bash webstart.sh"
+    "bash start.sh"
 ]
-# "bash backend/start.sh"
+
+# backend 디렉토리로 변경
+backend_dir = os.path.join(os.getcwd(), 'backend')
 
 for command in commands:
-    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    if command == "bash start.sh":
+        result = subprocess.run(command, shell=True, capture_output=True, text=True, cwd=backend_dir)
+    else:
+        result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    
     print(result.stdout)
     print(result.stderr)
     if result.returncode != 0:
